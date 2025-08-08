@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndexedDB Note App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>IndexedDB Note App</h1>
+    <textarea id="noteInput" placeholder="Write your note here..."></textarea>
+    <button id="saveButton">Save Note</button>
+    <button id="clearButton">Clear All Notes</button>
+    <button id="exportButton">Export Notes</button>
+    <label for="importInput">
+        <button id="importButton">Import Notes</button>
+    </label>
+    <input type="file" id="importInput" accept=".json">
+    <div id="status"></div>
+    <div id="notesList"></div>
+    <script src="script.js"></script>
+</body>
+</html>

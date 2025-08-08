@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+#noteInput {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+#saveButton, #clearButton, #exportButton, #importButton {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#saveButton:hover, #clearButton:hover, #exportButton:hover, #importButton:hover {
+    background-color: #3700b3;
+}
+#notesList {
+    margin-top: 20px;
+}
+.note {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+#importInput {
+    display: none;
+}
+#status {
+    color: red;
+    margin-top: 10px;
+}
